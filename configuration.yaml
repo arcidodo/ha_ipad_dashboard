@@ -1,0 +1,5 @@
+shell_command:
+    ipad_homeassistant: 
+        ssh -i /config/ssh/id_rsa -o 'StrictHostKeyChecking=no' mobile@192.168.1.207 'uiopen --bundleid io.robbie.HomeAssistant'
+    ipad_woning: 
+        ssh -i /config/ssh/id_rsa -o 'StrictHostKeyChecking=no' mobile@192.168.1.207 'uiopen --bundleid com.apple.Home'
